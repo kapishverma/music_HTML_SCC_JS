@@ -142,7 +142,7 @@ body {
 }
 
 .btn {
-    background: transparent;
+    background: none;
     color: cyan;
     font-size: 50px;
     cursor: pointer;
