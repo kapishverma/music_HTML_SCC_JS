@@ -1,4 +1,4 @@
-
+// set music details 
 let songs = [
     {
         name: 'Shree Ram',
@@ -24,8 +24,9 @@ let songs = [
         artist: 'unknown',
         cover: 'media/4.1.jpg'
     }
-
 ]
+
+ // Main js code
 
 let currentMusic = 0;
 
@@ -76,7 +77,7 @@ const setMusic = (i) => {
     setTimeout(() => {
         seekBar.max = music.duration;
         musicDuration.innerHTML = formatTime(music.duration);
-    }, 300);
+    }, 1300);
 }
 
 setMusic(0);
